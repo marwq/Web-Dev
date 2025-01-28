@@ -1,0 +1,156 @@
+/* Reset and general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #eef1f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 70vh;
+}
+
+.info-section {
+  margin-right: 40px;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.logo {
+  color: #1877f2;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.5rem;
+  color: #1c1e21;
+  line-height: 1.2;
+}
+
+.auth-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.btn-login {
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.password-reset {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.password-reset a {
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.separator {
+  border-bottom: 1px solid #dadde1;
+  margin: 20px 0;
+}
+
+.btn-register {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  min-width: 170px;
+}
+
+.page-link {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 0.9rem;
+}
+
+.page-link a {
+  color: #1c1e21;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: white;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footer-wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.lang-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.75rem;
+}
+
+.lang-options a {
+  color: #737373;
+  text-decoration: none;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.75rem;
+}
+
+.footer-nav a {
+  color: #737373;
+  text-decoration: none;
+}
+
+.copyright {
+  margin-top: 20px;
+  color: #737373;
+  font-size: 0.75rem;
+}

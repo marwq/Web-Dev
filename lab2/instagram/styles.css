@@ -1,0 +1,189 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-grow: 1;
+    gap: 32px;
+}
+
+.device-frame {
+    padding: auto;
+    opacity: 1;
+    background-color: #555;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.auth-section {
+    max-width: 350px;
+    width: 100%;
+}
+
+.auth-card {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.brand-logo {
+    margin: 36px 0;
+    text-align: center;
+}
+
+.brand-logo h1 {
+    font-family: "Instagram Sans Script", cursive;
+    font-size: 36px;
+    font-style: italic;
+}
+
+input {
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    padding: 9px 8px;
+    margin-bottom: 6px;
+    border-radius: 3px;
+    color: #000;
+    font-size: 12px;
+}
+
+.signin-btn {
+    width: 100%;
+    background-color: #0095f6;
+    color: #fff;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #737373;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.separator span {
+    margin: 0 18px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 8px 0;
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.reset-password {
+    text-align: center;
+    color: #00376b;
+    font-size: 12px;
+    margin-top: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.register-card {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.register-card p {
+    font-size: 14px;
+    color: #000;
+}
+
+.register-card a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.download-app {
+    text-align: center;
+}
+
+.download-app p {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.store-buttons img {
+    height: 40px;
+}
+
+footer {
+    padding: 24px 0;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    padding: 0 16px;
+}
+
+.nav-links a {
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-meta {
+    color: #737373;
+    font-size: 12px;
+}
+
+@media (max-width: 875px) {
+    .device-frame {
+        display: none;
+    }
+}
