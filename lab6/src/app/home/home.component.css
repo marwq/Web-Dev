@@ -1,0 +1,47 @@
+.fancy-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fancy-button:hover {
+  background: linear-gradient(135deg, #2980b9, #3498db);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 800px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.main a:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+  text-decoration: none;
+}
